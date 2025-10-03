@@ -19,4 +19,25 @@ public class ClasseInformacoes {
 		this.autoresAt = autor;
 		this.titulosAt = titulo;
 	}
+	
+	// Getters
+	public String getTitulo(){
+		return titulosAt;
+	}
+	
+	public String getSubTitulo(){
+		return subtitulosAt;
+	}
+	
+	public String getAutores(){
+		return autoresAt;
+	}
+	
+	public String getGeneros(){
+		return generosAt;
+	}
+	
+	public int getNumeroPaginas(){
+		return numerosPaginasAt;
+	}
 }
