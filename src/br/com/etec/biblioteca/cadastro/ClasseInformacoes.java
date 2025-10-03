@@ -40,4 +40,33 @@ public class ClasseInformacoes {
 	public int getNumeroPaginas(){
 		return numerosPaginasAt;
 	}
+	
+	// Setters
+	public void setAutores(String name){
+		this.autoresAt = name;
+	}
+	
+	public void setTitulos(String title){
+		this.titulosAt = title;
+	}
+	
+	public void setSubTitulos(String subtitle){
+		this.subtitulosAt = subtitle;
+	}
+	
+	public void setGeneros(String gender){
+		this.generosAt = gender;
+	}
+	
+	public void setNumerosPagina(int page){
+		this.numerosPaginasAt = page;
+	}
+	
+	// Método próprio
+	public void mostrardados(){
+		System.out.println("Informações do Produto");
+		System.out.println(titulosAt);
+		System.out.println(subtitulosAt);
+		System.out.println(autoresAt);
+	}
 }
