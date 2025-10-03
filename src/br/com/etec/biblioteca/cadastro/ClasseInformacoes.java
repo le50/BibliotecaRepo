@@ -68,5 +68,7 @@ public class ClasseInformacoes {
 		System.out.println(titulosAt);
 		System.out.println(subtitulosAt);
 		System.out.println(autoresAt);
+		System.out.println(generosAt);
+		System.out.println(numerosPaginasAt);
 	}
 }
